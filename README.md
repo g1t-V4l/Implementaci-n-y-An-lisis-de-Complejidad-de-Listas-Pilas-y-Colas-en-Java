@@ -28,6 +28,6 @@ java -cp out Main
 java -cp out BenchmarkMain results/benchmark.csv
 ```
 
-El benchmark usa `System.nanoTime()`, 7 repeticiones y mediana. La graficación se realiza posteriormente en Python para no contaminar la medición.
+El benchmark usa `System.nanoTime()`, 3 repeticiones y mediana. La graficación se realiza posteriormente en Python para no contaminar la medición.
 
 
